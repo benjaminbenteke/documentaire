@@ -1,0 +1,58 @@
+
+p.welcome{
+	/* color: red;*/
+	/*color:#2682c4;*/
+	color: #fff;
+	background-color:#E21C44 /* La couleur du font */
+}
+
+/* Pour les couleurs, on veut pas vouloir se limiter avec: red, black, white,... Un moment on prefere de bleu foncé,
+rouge bordeau ou autres. D'où on utilisear l'écriture hexadecimal (lettre et chiffre).
+
+pour Utiliser les code hexa, on tappe sur google: cod-couleur, et labas tu iras copier les codes correspondant au couloir
+
+conseil: Pour les couleurs dans un site, on utilise au max 3 couleurs. Au-delà de 3, vous aurez un site arc-en-ciel (site avec beaucoup de couleur);
+*/
+
+p.csscode{
+	/* color: red;*/
+	color:#000;
+	font-weight: bold;/* Permet de mettre un texte en gras, avec une certaine tenacité */
+}
+
+/* Metrre de la couleur au font de notre page */
+body{
+	background-color:#777;
+}
+
+
+/*  Metrre de l'image' au font de notre page*/
+
+
+body{
+	background:url("url_de_l'image") no-repeat; /* Pour que l'image ne se repete pas*/
+	/* background-size: 300px;*/   /* redimensionne votre image (celle que tu a mis dans le font d'écran)à 300px */
+	/*background-size: 100%;*/ /* Veut dire que l'image prendra 100% la taille de l'ecran. C'est tres jolie lorsque l'image est plus ou moins 1000px*/
+}
+
+
+/* Modifier la taille de "Bonjour" qui est dans notre page comme entete*/
+h1.headline{
+	font-size: 50px; /* pour Modifier la taille */
+	padding:15px; /* Permet de laisser l'espace par rapport à un nombre de pixels definis. 
+	padding:15px; veut dire ajouter l'espace 15px en haut, 15px en bas, 15px à gauche et 15px à droite. tout ça
+	veut dire ca entour mon élément à 15px.
+	*/
+	/* Si vous voulez par example modifier un padding particulier: top, bottom, right et left. On a:*/
+	/*
+	padding-top:200px ;
+	padding-bottom:100px ;
+	padding-right:120px ;
+	padding-left: 150px;
+	*/
+
+	margin:;/* C'est par rapport à la marge de la page.*/
+}
+a{
+	/* opacity: 0.4;*/ /* Permet de changer la transparence d'un élément*. C'est vraiment dégoutant/
+}

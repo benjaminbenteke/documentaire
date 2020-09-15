@@ -1,0 +1,48 @@
+/* on veut enlever les points points point. Et Mettre nos boutons: Accueill, Actualités et contact linéairement; */
+/* Accedons à la balise nav de class="menu-nav, apres on entre dans la balise ul et puis on entre aussi à la balise li et 
+puis on choisit la classe btn*/
+
+nav.menu-nav ul li.btn{
+	list-style: none; /* On enleve les points point points*/
+	display: inline-block; /*Afficher sous forme lineaire en block*/
+
+}
+/* Toujour les proprietés sur notre menu */
+nav.menu-nav ul li.btn a{
+	color:white; /* Changez la couleur de nos texts dans le menu (Actualité, Accueill et contact)*/
+	text-decoration: none; /* Enlever les soulignements de textes dans le menu (Actualité, Accueill et contact) */
+	background-color: red; /* Colorer les fonts de nos textes dans le menu */
+	padding:10px; /* Espace en haut, en bas, à gauche et à droite sera à 10px*/
+	font-size: 25px;/* Augmenter la taille de nos textes*/
+}
+/* Les effets dans nos boutons ou effets de transitions. Une fois que tu click sur un bouton, ça change de couleur
+:hover permet de faire les animations lors du survole*/
+
+/* Interpretation: lors du survole, la couleur du text devient rouge et la couleur du font de l'élément devient blanche; */
+nav.menu-nav ul li.btn:hover a{
+	color:red; /* couleur du text*/
+	background-color:white /* couleur du font de l'élément*/;
+	transition:0.3s all; /* le changement de cette couleur se fera apres 0.5sec et ça se fera sur tout l'élément
+	En général on met 0.3s*/
+}
+/* Mettre notre boite en noire (Le premier div qui contient tous les div)*/
+div{
+	background-color: gray;
+}
+
+div#content div{
+	display: inline-block;
+	width:48%px;
+}
+
+div#content div h1,p,iframe{
+	margin: 35px;
+}
+
+div#content div.leftbox{
+	background-color: yellow;
+	vertical-align: top;
+}
+
+div#content div.rightbox{
+	background-color: green;
